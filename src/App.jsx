@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import WordBox from "./WordBox";
+import WordBox from "./wordBox";
 import Word from "./Word";
 
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
