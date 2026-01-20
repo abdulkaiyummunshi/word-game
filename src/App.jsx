@@ -499,10 +499,10 @@ export default function App() {
       </h1>
 
       <div className="flex justify-around text-white my-8 max-w-4xl m-auto">
-        <div className={`text-2xl font-bold font-mono py-2 px-6 rounded-2xl transition-all ${player === 1 ? "bg-green-600 scale-110 shadow-lg shadow-green-900" : "bg-black opacity-50"}`}>
+        <div className={`md:text-2xl font-bold font-mono py-2 md:px-6 px-3 rounded-2xl transition-all ${player === 1 ? "bg-green-600 scale-110 shadow-lg shadow-green-900" : "bg-black opacity-50"}`}>
           🟢 Player 1: {score[1]}
         </div>
-        <div className={`text-2xl font-bold font-mono py-2 px-6 rounded-2xl transition-all ${player === 2 ? "bg-blue-600 scale-110 shadow-lg shadow-blue-900" : "bg-black opacity-50"}`}>
+        <div className={`md:text-2xl font-bold font-mono py-2 md:px-6 px-3 rounded-2xl transition-all ${player === 2 ? "bg-blue-600 scale-110 shadow-lg shadow-blue-900" : "bg-black opacity-50"}`}>
           🔵 Player 2: {score[2]}
         </div>
       </div>
