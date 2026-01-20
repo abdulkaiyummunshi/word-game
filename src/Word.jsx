@@ -1,4 +1,5 @@
 export default function Word({ value, onClick }) {
+
   return (
     <div
       onClick={onClick}
