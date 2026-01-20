@@ -493,7 +493,7 @@ export default function App() {
   }, [grid]);
 
   return (
-    <div className="min-h-screen bg-gray-900 p-6">
+    <div className="min-h-screen bg-gray-900 md:p-6 p-3">
       <h1 className="text-3xl font-bold text-center pb-4 text-white font-serif border-b border-green-600">
         Alpha Battle
       </h1>
